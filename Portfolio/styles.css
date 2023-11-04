@@ -1,0 +1,153 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  font-size: 24px;
+}
+
+header {
+  background-color: #333;
+  color: #f70808;
+  text-align: center;
+  padding: 150px 0;
+  transition: all 0.5s ease;
+  font-size: 36px;
+}
+
+header:hover {
+  transform: scale(1.0);
+}
+
+.header-content {
+  transition: all 0.5s ease;
+}
+
+.header-content:hover {
+  transform: scale(1.2);
+}
+
+.about {
+  background-color: #771eec;
+  padding: 360px;
+  text-align: left;
+  font-size: 720px;
+}
+
+.about-content {
+  display: flex;
+  align-items: left;
+  justify-content: space-around;
+  font-size: 39px;
+}
+.about-content :hover {
+  transform: scale(1.1);
+}
+
+.profile-image {
+  width: 200px;
+  border-radius: 50%;
+  transition: transform 0.5s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.1);
+}
+
+.bio {
+  padding: 20px;
+  color: #333;
+  font-size: 36px;
+}
+
+.skills {
+  background-color: #eaeaea;
+  padding: 50px;
+  text-align: center;
+  font-size: 45px;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  font-size: 56px;
+}
+
+.skills li:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+.projects {
+  background-color: #ddd;
+  padding: 50px;
+}
+
+.project {
+  margin-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  font-size: 36px;
+}
+
+.project:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.0);
+}
+
+.project h3 {
+  color: #333;
+  font-size: 36px;
+}
+
+.project img {
+  width: 50%;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.project img:hover {
+  transform: scale(0.9);
+}
+
+.resume,
+.contact {
+  background-color: #ccc;
+  padding: 50px;
+  text-align: center;
+  transition: all 0.5s ease;
+  font-size: 36px;
+}
+
+/* .resume:hover, */
+.contact:hover {
+  background-color: #bbb;
+  transform: scale(0.5);
+  font-size: 25px; /* Adjust the font size as needed */
+  text-align: left;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 36px;
+}
